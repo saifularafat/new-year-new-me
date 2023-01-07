@@ -13,12 +13,21 @@ section{
     margin-bottom: 140px;
 }
 
-.main_section{
-    margin-left: 206px;
-    margin-right: 260px;
-} 
+.title{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    color: #151414;
+    text-align: center;
+    margin-bottom: 50px;
+}
 
-/* header section whit bannar style strat now*/
+/* main{
+    max-width: 1140px;
+    margin-top: 0 au;
+} */
+
+/* header section whit bannar style strat now */
 .banner_section img{
     width: 100%;
 }
@@ -26,7 +35,7 @@ section{
 .banner_section .main_section{
     display: flex;
     flex-wrap: wrap;
-    margin-left: 0;
+    margin-left: 0; 
     margin-right: 0;
 }
 
@@ -39,14 +48,12 @@ section{
     position: relative;
 }
 
-.banner_caption{
-    /* max-width: 550px; */
+ .banner_section .banner_caption{
     position: absolute;
-    text-align: right;
-    right: 230px;
+    right: 0;
     top: 50%;
     transform: translateY(-50%)
-}
+} 
 
 .banner_section .header-title{
     font-weight: 700;
@@ -74,11 +81,17 @@ section{
     background: #F15B22;
 }
 
+.banner_section .right_column{
+    text-align: right;
+}
+
 /* previous_year style strat now */
 
-.previous_year .main_section{
+    .previous_year .main_section{
     display: flex;
     align-items: center;
+    margin-left: 206px;
+    margin-right: 260px;  
 }
 
 .previous_year .left_column,
@@ -88,8 +101,9 @@ section{
 
 .previous_year .right_column{
     max-width: 450px;
-    margin-top: 50px;
-    margin-left: 50px;
+    margin-top: 150px;
+    margin-left: 40px;
+    text-align: left;
 }
 
 .previous-title{
@@ -126,23 +140,17 @@ ul li{
 }
 
 /* my_Plans section style strat now */
-
-.Plans-title{
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 47px;
-    color: #151414;
-    text-align: center;
-    margin-bottom: 50px;
-}
+ .my_Plans{
+    max-width: 1140px;
+    margin: 0 auto;
+} 
 
 .main_section{
     display: flex;
-    justify-content: space-around;
-}
-
-.flex_column{
-   text-align: center;
+    gap: 50px;
+    margin: 0 0;
+    justify-content: space-around; 
+    text-align: center;
 }
 
 .skile-title{
@@ -161,5 +169,198 @@ ul li{
     line-height: 29px;
     color: #737272;
     text-align: center;
+    margin-bottom: 50px;
 }
 
+/* contact and linear-gradient style now */
+.contact{
+    max-width: 1140px;
+    height: 300px;
+    margin: 0 auto;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url('../images/watch.png');
+    border-radius: 8px;
+}
+
+
+.contact-content{
+    max-width: 450px; 
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%);
+    left: 50px;
+}
+
+.contact-title{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    color: #fff;
+}
+
+.contact .btn{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    background: #fff;
+    color: #F15B22;
+    border: 1px solid #F15B22;
+    border-radius: 8px;
+    padding: 10px 28px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+/* my service section strat now */
+.service_section{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 140px;
+}
+
+ .service_section .main_column{
+    display: flex;
+    gap: 50px;
+    text-align: center;
+ }
+
+ .service_section span{
+    color: #F15B22;
+ }
+
+ .service_section .service-title{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #151414;
+    margin-top: 30px;
+    margin-bottom: 20px;
+ }
+
+ .service_section .service-description{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #444343;
+    margin-bottom: 16px;
+ }
+
+ .service_section .flex_column{
+    width: 267px;
+    height: 360px;
+    padding: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(27, 27, 27, 0.06);
+    border-radius: 5px;
+}
+
+/* Future style strat now */
+section{
+    margin-bottom: 0;
+}
+
+.Future{
+    background: #151414
+    ;
+}
+
+.Future .main_column{
+    display: flex;
+    max-width: 1140px;
+    margin: 0 auto;
+    gap: 250px;
+    padding: 130px 230px;
+}
+
+.Future .left_column,
+.Future .right_column{
+    width: 50%;
+}
+
+.future-title{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 53px;
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+
+.future-description{
+    max-width: 485px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #fff;
+}
+
+.Future a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.Future a:hover{
+    opacity: .7;
+}
+
+.Future .mail{
+    display: block;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.Future .phone{
+    display: block;
+    margin-bottom: 32px;
+}
+
+.Future .twitter{
+    margin: 0 18px;
+}
+
+.Future .sub-title{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 29px;
+    color: #fff;
+    margin-bottom: 31px;
+}
+
+.Future input{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    display: block;
+    padding: 10px 50px 10px 50px;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    background: #151414;
+    color: #F3F3F3;
+    margin-bottom: 16px;
+}
+
+.Future .Subscribe-btn{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #F15B22;
+    padding: 20px 36px;
+     border-radius: 8px;
+     cursor: pointer;
+}
+
+/* socket style strat now */
+.socket{
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.socket a{
+    font-size: 22px;
+}
+
+.socket span{
+    color: #F15B22;
+}
