@@ -50,7 +50,7 @@ section{
 
  .banner_section .banner_caption{
     position: absolute;
-    right: 0;
+    right: 256px;
     top: 50%;
     transform: translateY(-50%)
 } 
@@ -87,11 +87,12 @@ section{
 
 /* previous_year style strat now */
 
-    .previous_year .main_section{
+.previous_year .main_section{
     display: flex;
     align-items: center;
     margin-left: 206px;
-    margin-right: 260px;  
+    margin-right: 260px;
+    margin-bottom: 100px;
 }
 
 .previous_year .left_column,
@@ -102,7 +103,7 @@ section{
 .previous_year .right_column{
     max-width: 450px;
     margin-top: 150px;
-    margin-left: 40px;
+    margin-left: 130px;
     text-align: left;
 }
 
@@ -145,12 +146,16 @@ ul li{
     margin: 0 auto;
 } 
 
-.main_section{
+.my_Plans .main_section{
     display: flex;
     gap: 50px;
     margin: 0 0;
     justify-content: space-around; 
     text-align: center;
+}
+
+.my_Plans .img{
+    width: 100%;
 }
 
 .skile-title{
