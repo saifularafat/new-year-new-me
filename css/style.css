@@ -1,3 +1,5 @@
+
+
 /* global style */
 *{
     margin: 0;
@@ -11,6 +13,11 @@ section{
     margin-bottom: 140px;
 }
 
+.main_section{
+    margin-left: 206px;
+    margin-right: 260px;
+} 
+
 /* header section whit bannar style strat now*/
 .banner_section img{
     width: 100%;
@@ -19,6 +26,8 @@ section{
 .banner_section .main_section{
     display: flex;
     flex-wrap: wrap;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .banner_section .left_column,
@@ -70,9 +79,8 @@ section{
 .previous_year .main_section{
     display: flex;
     align-items: center;
-    margin-left: 206px;
-    margin-right: 260px;
 }
+
 .previous_year .left_column,
 .previous_year .right_column{
     width: 50%;
@@ -116,3 +124,42 @@ ul li{
     font-size: 18px;
     color: #16D887;
 }
+
+/* my_Plans section style strat now */
+
+.Plans-title{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    color: #151414;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.main_section{
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex_column{
+   text-align: center;
+}
+
+.skile-title{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 37px;   
+    color: #151414; 
+     text-align: left; 
+    margin-top: 50px;
+    margin-bottom: 14px;
+}
+
+.skile-sub-title{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29px;
+    color: #737272;
+    text-align: center;
+}
+
