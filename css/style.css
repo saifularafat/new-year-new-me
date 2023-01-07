@@ -1,0 +1,118 @@
+/* global style */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+section{
+    margin-top: 100px;
+    margin-bottom: 140px;
+}
+
+/* header section whit bannar style strat now*/
+.banner_section img{
+    width: 100%;
+}
+
+.banner_section .main_section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.banner_section .left_column,
+.banner_section .right_column{
+    width: 50%;
+}
+
+.banner_section{
+    position: relative;
+}
+
+.banner_caption{
+    /* max-width: 550px; */
+    position: absolute;
+    text-align: right;
+    right: 230px;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+.banner_section .header-title{
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: right;
+    color: #151414;
+    margin-bottom: 24px;
+}
+
+.banner_section .header-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #444343;
+    line-height: 26px;
+    margin-bottom: 34px;
+}
+
+.banner_section .btn{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    padding: 18px 34px;
+    background: #F15B22;
+}
+
+/* previous_year style strat now */
+
+.previous_year .main_section{
+    display: flex;
+    align-items: center;
+    margin-left: 206px;
+    margin-right: 260px;
+}
+.previous_year .left_column,
+.previous_year .right_column{
+    width: 50%;
+}
+
+.previous_year .right_column{
+    max-width: 450px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.previous-title{
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    margin-bottom: 24px;
+}
+
+.previous-desciption{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul li{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 8px;
+}
+
+.fa-solid{
+    font-size: 18px;
+    color: #16D887;
+}
